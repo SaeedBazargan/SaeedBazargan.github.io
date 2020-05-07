@@ -10,12 +10,13 @@ header {
     margin: 10px 10%;
     position: sticky;
     top: 0;
-    padding: 10px 0px;
+    padding: 40px 0px;
     background-color: white;
 }
 
 header h1{
-    font-size: 3vw;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 50px;
     line-height: 3vw;
     text-align: center;
 }
@@ -35,6 +36,7 @@ header h1{
 }
 
 aside {
+    text-align: center;
     margin-left: 10%;
     width: 15%;
     padding: 1% 0% 10px 0%;
@@ -42,7 +44,6 @@ aside {
 }
 
 aside img {
-    /* margin-left: 0%; */
     margin-bottom: 10%;
     left: 0%;
     top: 0%;
@@ -55,10 +56,10 @@ aside img {
     text-decoration: none;
 }
 
-.nav-ele{
+.nav-ele {
     list-style: none;
     margin-top: 8%;
-    font-size: 1.2vw;
+    font-size: 15px;
 }
 
 #navi .nav-ele a {
@@ -72,20 +73,30 @@ aside img {
 main {
     margin-left: 20px;
     margin-right: 10%;
-    font-size: 1.4vw;
-    text-align:justify;
+    font-size: 20px;
+    margin-top: 6%;
     width: 55%;
     padding: 1% 10px 10px 10px;
 }
 
+main p, main a {
+    font-family: 'Dosis', sans-serif;
+}
+
+main a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
 footer {
-    margin-top: 0.9%;
+    margin-top: 4%;
     margin-left: 10%;
     max-width: 100%;
     padding: 10px;
 }
 
-footer li{
+footer li {
     float: left;
     list-style: none;
     display: inline;
@@ -114,7 +125,6 @@ footer h4 {
 
     header, main, footer {
         width: 80%;
-        font-size: 2vw;
     }
 
     main {
@@ -122,22 +132,25 @@ footer h4 {
     }
 
     #mobile-nav {
-        max-width: 90%;
+        max-width: 100%;
         display: inline;
-        margin: 3% 11%;
+        margin: 3% 4%;
+        /* color: blue; */
     }
 
     .nav-ele-m {
         display: inline;
-        font-size: 1.5vw;
-        padding: 0% 1.5%;
+        font-size: 2vw;
+        padding: 0% 1%;
+        /* color: black; */
     }
 
     .nav-ele-m a {
         text-decoration: none;
+        /* color: black; */
     }
 
-    .nav-ele-m a {
+    .nav-ele-m a, .nav-ele-m a:visited {
         color: black;
     }
     
@@ -145,5 +158,13 @@ footer h4 {
         color: gray;
     }
 
+    footer li {
+        font-size: 4vw;
+    }
 
+    footer h4 {
+        float: right;
+        margin-left: 0;
+        font-size: 2vw;
+    }
 }

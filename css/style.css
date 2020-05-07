@@ -36,13 +36,13 @@ header h1{
 
 aside {
     margin-left: 10%;
-    width: 20%;
-    padding: 10px 0% 10px 0%;
+    width: 15%;
+    padding: 1% 0% 10px 0%;
     font-weight: bolder;
 }
 
 aside img {
-    margin-left: 20%;
+    /* margin-left: 0%; */
     margin-bottom: 10%;
     left: 0%;
     top: 0%;
@@ -66,22 +66,23 @@ aside img {
 }
 
 #navi .nav-ele a:hover {
-    color: cyan;
+    color: gray;
 }
 
 main {
     margin-left: 20px;
     margin-right: 10%;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
+    text-align:justify;
     width: 55%;
-    padding: 5% 10px 10px 10px;
+    padding: 1% 10px 10px 10px;
 }
 
 footer {
-    margin-top: 1%;
+    margin-top: 0.9%;
     margin-left: 10%;
     max-width: 100%;
-    padding: 20px 10px;
+    padding: 10px;
 }
 
 footer li{
@@ -97,17 +98,13 @@ footer li a:link, footer li a:visited {
 }
 
 footer li a:hover {
-    color: cyan;
+    color: gray;
 }
 
 footer h4 {
     margin-left: 70%;
     color: gray;
     font-size: 1vw;
-}
-
-.dropdown {
-    display: none;
 }
 
 @media(max-width: 768px) {
@@ -125,7 +122,7 @@ footer h4 {
     }
 
     #mobile-nav {
-        max-width: 80%;
+        max-width: 90%;
         display: inline;
         margin: 3% 11%;
     }
@@ -133,7 +130,7 @@ footer h4 {
     .nav-ele-m {
         display: inline;
         font-size: 1.5vw;
-        padding-right: 3%;
+        padding: 0% 1.5%;
     }
 
     .nav-ele-m a {
@@ -145,7 +142,7 @@ footer h4 {
     }
     
     .nav-ele-m a:hover {
-        color: cyan;
+        color: gray;
     }
 
 

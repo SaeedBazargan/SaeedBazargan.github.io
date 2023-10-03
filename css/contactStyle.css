@@ -6,11 +6,11 @@ main h1 {
 
 main a {
     font-family: 'Libre Caslon Text', serif;
-    color: black;
+    color: white;
 }
 
 main a:hover {
-    color: gray;
+    color: white;
 }
 
 main h4 {

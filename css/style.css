@@ -11,7 +11,7 @@ header {
     position: sticky;
     top: 0;
     padding: 40px 0px;
-    background-color: gray;
+    background-color: white;
 }
 
 header h1{
@@ -63,11 +63,11 @@ aside img {
 }
 
 #navi .nav-ele a {
-    color: white;
+    color: black;
 }
 
 #navi .nav-ele a:hover {
-    color: white;
+    color: gray;
 }
 
 main {
@@ -85,7 +85,7 @@ main p, main a {
 
 main a {
     text-decoration: none;
-    color: white;
+    color: gray;
     font-weight: bold;
 }
 
@@ -105,16 +105,16 @@ footer li {
 }
 
 footer li a:link, footer li a:visited {
-    color: white;
+    color: black;
 }
 
 footer li a:hover {
-    color: white;
+    color: gray;
 }
 
 footer h4 {
     margin-left: 70%;
-    color: white;
+    color: gray;
     font-size: 1vw;
 }
 
@@ -151,11 +151,11 @@ footer h4 {
     }
 
     .nav-ele-m a, .nav-ele-m a:visited {
-        color: white;
+        color: gray;
     }
     
     .nav-ele-m a:hover {
-        color: white;
+        color: gray;
     }
 
     footer li {

@@ -25,7 +25,6 @@ Sacramento, California, USA
 About
 Resume
 Portfolio
-Blog
 Contact
 
 # about
@@ -184,10 +183,6 @@ Arrival
 Web development
 
 
-
-# blog
-
-Blog
 
 alt = Design conferences in 2022
 Design

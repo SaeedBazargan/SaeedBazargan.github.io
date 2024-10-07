@@ -492,7 +492,7 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-/* .navbar-link.active { color: var(--orange-yellow-crayola); } */
+.navbar-link.active { color: var(--orange-yellow-crayola); }
 
 /*-----------------------------------*\
   #ABOUT
@@ -1632,7 +1632,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button:hover { color: var(--light-gray-70); }
 
-  .filter-item button.active { color: var(--orange-yellow-crayola); }
+  /* .filter-item button.active { color: var(--orange-yellow-crayola); } */
 
 
   /**

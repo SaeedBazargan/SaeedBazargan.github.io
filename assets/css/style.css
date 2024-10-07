@@ -1182,7 +1182,7 @@ main {
 
 .form-input::placeholder { font-weight: var(--fw-500); }
 
-.form-input:focus { border-color: var(--orange-yellow-crayola); }
+/* .form-input:focus { border-color: var(--orange-yellow-crayola); } */
 
 textarea.form-input {
   min-height: 100px;
@@ -1200,7 +1200,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(--orange-yellow-crayola);
+  /* color: var(--orange-yellow-crayola); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1226,9 +1226,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn ion-icon { font-size: 16px; }
 
-.form-btn:hover { background: var(--bg-gradient-yellow-1); }
+/* .form-btn:hover { background: var(--bg-gradient-yellow-1); }
 
-.form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
+.form-btn:hover::before { background: var(--bg-gradient-yellow-2); } */
 
 .form-btn:disabled {
   opacity: 0.7;
@@ -1632,7 +1632,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button:hover { color: var(--light-gray-70); }
 
-  /* .filter-item button.active { color: var(--orange-yellow-crayola); } */
+  .filter-item button.active { color: var(--orange-yellow-crayola); }
 
 
   /**
